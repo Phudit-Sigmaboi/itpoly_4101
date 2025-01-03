@@ -23,11 +23,11 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Courses from "./pages/Courses";
 import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -58,4 +58,3 @@ function App() {
 }
 
 export default App;
-

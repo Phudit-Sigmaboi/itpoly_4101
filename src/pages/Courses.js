@@ -6,7 +6,7 @@ function Courses() {
       <h2>Courses</h2>
       <p>ด้านล่างนี้คือเอกสารหลักสูตร:</p>
       <iframe
-        src="public/31901v5.pdf"
+        public="/31901v5.pdf"
         title="PDF Viewer"
         style={styles.iframe}
       />
